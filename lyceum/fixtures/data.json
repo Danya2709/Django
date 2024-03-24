@@ -1,0 +1,162 @@
+[
+{
+   "model": "catalog.tag",
+   "pk": 2,
+   "fields": {
+      "name": "╠єцёъюх",
+      "is_published": true,
+      "slug": "masculine"
+   }
+},
+{
+   "model": "catalog.tag",
+   "pk": 3,
+   "fields": {
+      "name": "─хЄёъюх",
+      "is_published": true,
+      "slug": "children-s"
+   }
+},
+{
+   "model": "catalog.tag",
+   "pk": 4,
+   "fields": {
+      "name": "╞хэёъюх",
+      "is_published": true,
+      "slug": "Women-s"
+   }
+},
+{
+   "model": "catalog.tag",
+   "pk": 5,
+   "fields": {
+      "name": "фы  фюьр",
+      "is_published": true,
+      "slug": "for-home"
+   }
+},
+{
+   "model": "catalog.tag",
+   "pk": 6,
+   "fields": {
+      "name": "фы  ёхь№ш",
+      "is_published": true,
+      "slug": "for-family"
+   }
+},
+{
+   "model": "catalog.tag",
+   "pk": 7,
+   "fields": {
+      "name": "фы  їюч щёЄтр",
+      "is_published": true,
+      "slug": "for-farming"
+   }
+},
+{
+   "model": "catalog.category",
+   "pk": 2,
+   "fields": {
+      "is_published": true,
+      "name": "╬фхцфр",
+      "slug": "cloth",
+      "weight": 100
+   }
+},
+{
+   "model": "catalog.category",
+   "pk": 3,
+   "fields": {
+      "is_published": true,
+      "name": "╥хїэшър",
+      "slug": "technique",
+      "weight": 100
+   }
+},
+{
+   "model": "catalog.item",
+   "pk": 2,
+   "fields": {
+      "is_published": true,
+      "category": 2,
+      "name": "ЇєЄсюыър",
+      "text": "Ёюёъю°эю",
+      "tags": [
+         2,
+         3,
+         4
+      ]
+   }
+},
+{
+   "model": "catalog.item",
+   "pk": 3,
+   "fields": {
+      "is_published": true,
+      "category": 2,
+      "name": "┴Ё■ъш",
+      "text": "Ёюёъю°эю",
+      "tags": [
+         2,
+         3,
+         4
+      ]
+   }
+},
+{
+   "model": "catalog.item",
+   "pk": 4,
+   "fields": {
+      "is_published": true,
+      "category": 2,
+      "name": "╧шфцръ",
+      "text": "Ёюёъю°эю",
+      "tags": [
+         2,
+         3,
+         4
+      ]
+   }
+},
+{
+   "model": "catalog.item",
+   "pk": 5,
+   "fields": {
+      "is_published": true,
+      "category": 3,
+      "name": "╤ЄшЁрыър",
+      "text": "яЁхтюёїюфэю",
+      "tags": [
+         5,
+         6
+      ]
+   }
+},
+{
+   "model": "catalog.item",
+   "pk": 6,
+   "fields": {
+      "is_published": true,
+      "category": 3,
+      "name": "├рчюэюъюёшыър",
+      "text": "яЁхтюёїюфэю",
+      "tags": [
+         5,
+         7
+      ]
+   }
+},
+{
+   "model": "catalog.item",
+   "pk": 7,
+   "fields": {
+      "is_published": true,
+      "category": 3,
+      "name": "╤ьрЁЄЇюэ",
+      "text": "яЁхтюёїюфэю",
+      "tags": [
+         6
+      ]
+   }
+}
+]
