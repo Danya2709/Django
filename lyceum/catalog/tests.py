@@ -1,3 +1,6 @@
+from django.test import Client, TestCase
+import parameterized
+
 class DBItemTests(TestCase):
     @classmethod
     def setUpClass(cls):
