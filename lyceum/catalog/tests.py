@@ -12,7 +12,7 @@ class DBItemTests(TestCase):
 
     @parameterized.parameterized.expand(
         [
-            ("0", "превосходно", True),
+            ("test", "превосходно", True),
             ("test", "роскошно", True),
             ("test", "Я превосходно", True),
             ("test", "превосходно Я", True),
